@@ -65,7 +65,7 @@ return core.Class.extend(mixins.EventDispatcherMixin, ServicesMixin, {
      * @param {boolean} [options.rainbowMan=true]
      *        whether or not the rainbowman must be shown at the end of the tour
      * @param {string} [options.fadeout]
-     *        Delay for rainbowman to disappear. 'fast' will make rainbowman dissapear, quickly,
+     *        Delay for rainbowman to disappear. 'fast' will make rainbowman disapper, quickly,
      *        'medium', 'slow' and 'very_slow' will wait little longer before disappearing, no
      *        will keep rainbowman on screen until user clicks anywhere outside rainbowman
      * @param {boolean} [options.sequence=1000]

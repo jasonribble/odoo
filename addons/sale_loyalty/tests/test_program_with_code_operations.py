@@ -281,7 +281,7 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
         self._apply_promo_code(order_bis, order._get_reward_coupons()[0].code, no_reward_fail=False)
         self.assertEqual(len(order_bis.order_line), 2, "You should get 1 regular product_B and 1 free product_B")
         order_bis._update_programs_and_rewards()
-        self.assertEqual(len(order_bis.order_line), 2, "Free product from a coupon generated from a promotion program on next order should not dissapear")
+        self.assertEqual(len(order_bis.order_line), 2, "Free product from a coupon generated from a promotion program on next order should not disappear")
 
     def test_edit_and_reapply_promotion_program(self):
         # The flow:

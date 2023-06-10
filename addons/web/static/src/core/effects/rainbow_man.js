@@ -7,7 +7,7 @@ import { Component, useEffect, useExternalListener, useState } from "@odoo/owl";
 /**
  * @typedef Common
  * @property {string} [fadeout='medium'] Delay for rainbowman to disappear.
- *  - 'fast' will make rainbowman dissapear quickly,
+ *  - 'fast' will make rainbowman disappear quickly,
  *  - 'medium' and 'slow' will wait little longer before disappearing
  *      (can be used when props.message is longer),
  *  - 'no' will keep rainbowman on screen until user clicks anywhere outside rainbowman

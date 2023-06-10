@@ -27,7 +27,7 @@ const effectRegistry = registry.category("effects");
  *    The url of the image to display inside the rainbow
  * @param {"slow"|"medium"|"fast"|"no"} [params.fadeout="medium"]
  *    Delay for rainbowman to disappear
- *    'fast' will make rainbowman dissapear quickly
+ *    'fast' will make rainbowman disappear quickly
  *    'medium' and 'slow' will wait little longer before disappearing (can be used when options.message is longer)
  *    'no' will keep rainbowman on screen until user clicks anywhere outside rainbowman
  * @param {Component} [params.Component]

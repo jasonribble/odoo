@@ -170,7 +170,7 @@ QUnit.test("close and do not crash if target parent does not exist", async (asse
 
     // This target does not have any parent, it simulates the case where the element disappeared
     // from the DOM before the setup of the component
-    const dissapearedTarget = document.createElement("div");
+    const disappearedTarget = document.createElement("div");
 
     assert.containsOnce(fixture, ".o_popover_container");
 
@@ -181,7 +181,7 @@ QUnit.test("close and do not crash if target parent does not exist", async (asse
         assert.step("close");
     }
 
-    popovers.add(dissapearedTarget, Comp, {}, { onClose });
+    popovers.add(disappearedTarget, Comp, {}, { onClose });
     await nextTick();
 
     assert.verifySteps(["close"]);
